@@ -26,7 +26,7 @@ class Solution {
                 if(inDeg[it]==0) q.add(it);
             }
         }
-        if(al.size()==v) return true;
-        return false;
+        // if(al.size()==v) return true;
+        return al.size()==v;
     }
 }
